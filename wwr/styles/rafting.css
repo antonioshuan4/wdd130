@@ -24,6 +24,7 @@ header {
     align-items: center;
     background-color: var(--primary-color);
     padding: 1rem;
+    color: white;
 }
 
 header img {
@@ -51,7 +52,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color)
 }
 
 .hero {
