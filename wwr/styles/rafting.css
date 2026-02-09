@@ -19,8 +19,8 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
     background-color: var(--primary-color);
     padding: 1rem;
@@ -29,6 +29,12 @@ header {
 
 header img {
     width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
