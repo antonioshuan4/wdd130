@@ -131,3 +131,55 @@ footer {
 .socialmedia img {
     width: 30px;
 }
+
+.contact-info,
+.map,
+.employees,
+.contact-form {
+    margin: 2rem 0;
+}
+
+.employees {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.employees figure {
+    text-align: center;
+}
+
+.employees img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    gap: 0.8rem;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #006994;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #004f70;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
