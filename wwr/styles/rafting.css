@@ -178,8 +178,9 @@ footer {
 }
 
 .map iframe {
+    border: 0;
     width: 100%;
     max-width: 600px;
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }
